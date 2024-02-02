@@ -20,6 +20,18 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
+struct LoginPrompt: View {
+    var body: some View {
+        VStack { //This is the ordering of the layout, think flex box
+            Text("TuneTally")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold()
+            
+        }
+        .foregroundColor(.green)
+    }
 }
+
+#Preview {
+    LoginPrompt()
+}
+
