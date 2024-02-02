@@ -14,6 +14,7 @@
 		766F18222B6C9F6200C6CD30 /* TuneTallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F18212B6C9F6200C6CD30 /* TuneTallyTests.swift */; };
 		766F182C2B6C9F6200C6CD30 /* TuneTallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F182B2B6C9F6200C6CD30 /* TuneTallyUITests.swift */; };
 		766F182E2B6C9F6200C6CD30 /* TuneTallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F182D2B6C9F6200C6CD30 /* TuneTallyUITestsLaunchTests.swift */; };
+		766F183B2B6CC17500C6CD30 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 766F183A2B6CC17500C6CD30 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		766F18272B6C9F6200C6CD30 /* TuneTallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneTallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		766F182B2B6C9F6200C6CD30 /* TuneTallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTallyUITests.swift; sourceTree = "<group>"; };
 		766F182D2B6C9F6200C6CD30 /* TuneTallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneTallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		766F183A2B6CC17500C6CD30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		766F18042B6C9F6000C6CD30 = {
 			isa = PBXGroup;
 			children = (
+				766F183A2B6CC17500C6CD30 /* README.md */,
 				766F180F2B6C9F6000C6CD30 /* TuneTally */,
 				766F18202B6C9F6200C6CD30 /* TuneTallyTests */,
 				766F182A2B6C9F6200C6CD30 /* TuneTallyUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766F183B2B6CC17500C6CD30 /* README.md in Resources */,
 				766F18182B6C9F6200C6CD30 /* Preview Assets.xcassets in Resources */,
 				766F18152B6C9F6200C6CD30 /* Assets.xcassets in Resources */,
 			);
